@@ -1,0 +1,125 @@
+# .project metadata for gRPC
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+schema_version: "1.0.0"
+slug: "grpc"
+name: "gRPC"
+description: "A high performance, open source universal RPC framework."
+type: "project"
+project_lead: "markdroth"
+cncf_slack_channel: "#grpc"
+
+maturity_log:
+  # gRPC was accepted directly into CNCF as an incubating project on 2017-02-16.
+  # The acceptance predates GitHub-based TOC issue tracking; the announcement
+  # blog post is used as the reference.
+  - phase: "incubating"
+    date: "2017-02-16T00:00:00Z"
+    issue: "https://www.cncf.io/blog/2017/03/01/cloud-native-computing-foundation-host-grpc-google/"
+
+repositories:
+  - "https://github.com/grpc/grpc"
+  - "https://github.com/grpc/grpc-go"
+  - "https://github.com/grpc/grpc-java"
+  - "https://github.com/grpc/grpc-node"
+  - "https://github.com/grpc/grpc-dotnet"
+  - "https://github.com/grpc/grpc-swift"
+  - "https://github.com/grpc/grpc-swift-2"
+  - "https://github.com/grpc/grpc-swift-nio-transport"
+  - "https://github.com/grpc/grpc-swift-protobuf"
+  - "https://github.com/grpc/grpc-swift-extras"
+  - "https://github.com/grpc/grpc-web"
+  - "https://github.com/grpc/grpc-dart"
+  - "https://github.com/grpc/grpc-kotlin"
+  - "https://github.com/grpc/grpc-php"
+  - "https://github.com/grpc/grpc-ios"
+  - "https://github.com/grpc/grpc-haskell"
+  - "https://github.com/grpc/grpc-proto"
+  - "https://github.com/grpc/proposal"
+  - "https://github.com/grpc/grpc-community"
+  - "https://github.com/grpc/grpc.io"
+  - "https://github.com/grpc/test-infra"
+  - "https://github.com/grpc/psm-interop"
+  - "https://github.com/grpc/grpc-java-api-checker"
+  - "https://github.com/grpc/bazel-central-registry"
+
+website: "https://grpc.io"
+artwork: "https://github.com/cncf/artwork/blob/master/examples/incubating.md#grpc-logos"
+
+adopters:
+  path: "https://grpc.io/about/"
+
+social:
+  twitter: "https://twitter.com/grpcio"
+  youtube: "https://www.youtube.com/channel/UCrnk1HWelWnYtF78YZX80fg"
+  gitter: "https://gitter.im/grpc/grpc"
+  stackoverflow: "https://stackoverflow.com/questions/tagged/grpc"
+
+mailing_lists:
+  - "grpc-io@googlegroups.com"
+
+package_managers:
+  pypi: "grpcio"
+  npm: "@grpc/grpc-js"
+  nuget: "Grpc.Net.Client"
+  maven: "io.grpc:grpc-core"
+  cocoapods: "gRPC"
+  pub: "grpc"
+
+audits:
+  - date: "2019-10-29T00:00:00Z"
+    type: "security"
+    url: "https://github.com/grpc/grpc/blob/master/doc/security_audit.md"
+
+security:
+  policy:
+    path: "https://github.com/grpc/grpc/blob/master/SECURITY.md"
+  contact:
+    email: grpc-security@googlegroups.com
+
+governance:
+  contributing:
+    path: "https://github.com/grpc/grpc-community/blob/master/CONTRIBUTING.md"
+  governance_doc:
+    path: "https://github.com/grpc/grpc-community/blob/master/governance.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/master/code-of-conduct.md"
+  roles_and_teams:
+    path: "https://github.com/grpc/grpc-community/blob/master/contributor_ladder.md"
+  contributor_ladder:
+    path: "https://github.com/grpc/grpc-community/blob/master/contributor_ladder.md"
+  change_process:
+    path: "https://github.com/grpc/proposal/blob/master/README.md"
+  comms_channels:
+    path: "https://grpc.io/community/"
+  contributor_guide:
+    path: "https://github.com/grpc/grpc-community/blob/master/CONTRIBUTING.md"
+  decision_making_process:
+    path: "https://github.com/grpc/grpc-community/blob/master/governance.md#decision-making-and-voting"
+  maintainer_lifecycle:
+    onboarding_doc:
+      path: "https://github.com/grpc/grpc-community/blob/master/contributor_ladder.md#maintainer"
+    progression_ladder:
+      path: "https://github.com/grpc/grpc-community/blob/master/contributor_ladder.md#core-contributor"
+    offboarding_policy:
+      path: "https://github.com/grpc/grpc-community/blob/master/contributor_ladder.md#stepping-downemeritus-process"
+
+legal:
+  license:
+    path: "https://github.com/grpc/grpc/blob/master/LICENSE"
+  identity_type:
+    has_dco: false
+    has_cla: true
+    cla_only: true
+    cla_url:
+      path: "https://identity.linuxfoundation.org/projects/cncf"
+
+documentation:
+  readme:
+    path: "https://github.com/grpc/grpc/blob/master/README.md"
+  api:
+    path: "https://grpc.io/docs/"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Remote Procedure Call"

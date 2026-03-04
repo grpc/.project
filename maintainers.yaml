@@ -1,0 +1,35 @@
+# Maintainer roster for gRPC
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+#
+# Source of truth: https://github.com/grpc/grpc-community/blob/master/contributors/maintainers.md
+# Per-repo maintainers are also listed in each repo's MAINTAINERS.md.
+
+maintainers:
+  - project_id: "grpc"
+    org: "grpc"
+    teams:
+      - name: "project-maintainers"
+        members:
+          # Authoritative cross-project maintainers from grpc-community
+          - atollena       # Antoine Tollenaere, Datadog   — Go
+          - ctiller        # Craig Tiller, Google           — C++
+          - dfawley        # Doug Fawley, Google            — Go
+          - ejona86        # Eric Anderson, Google          — Java
+          - glbrntt        # George Barnett, Apple          — Swift
+          - JamesNK        # James Newton-King, Microsoft   — .NET
+          - ginayeh        # Jung-Yu (Gina) Yeh, Google     — Go
+          - zhangkun83     # Kun Zhang, Google              — Java
+          - markdroth      # Mark Roth, Google              — C++, xDS
+          - murgatroid99   # Michael Lumish, Google          — Node.js
+          - nupurkot       # Nupur Kothari, Google          — C++, Java, Python
+          - gnossen        # Richard Belleville, Google      — Python
+          - sergiitk       # Sergii Tkachenko, Google        — Python, xDS Interop
+      - name: "steering-committee"
+        members:
+          - atollena       # Antoine Tollenaere, Datadog
+          - thisisnotapril # April Kyle Nassi, Google
+          - ctiller        # Craig Tiller, Google
+          - ginayeh        # Jung-Yu (Gina) Yeh, Google
+          - kevinnilson    # Kevin Nilson, Google
+          - markdroth      # Mark Roth, Google
+          - nupurkot       # Nupur Kothari, Google
